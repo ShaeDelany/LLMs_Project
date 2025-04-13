@@ -26,4 +26,5 @@ or,
 ### Here are some examples of the output when I ran the following commands
 
 filename = docs/news-mx.html
-<pre> ```bash $ python3 docsum.py docs/news-mx.html  The text appears to be a collection of coding snippets, including JavaScript, CSS, and HTML, that make up the El País website. The code includes settings and configurations for content, advertising, and user subscription links, as well as styles and animations for visual elements. Meanwhile, the text also includes news articles about the US Supreme Court's decision to allow the deportation of immigrants accused of being involved with a criminal organization in Venezuela. ``` </pre>
+<pre> ```bash $ python3 docsum.py docs/news-mx.html  
+Summary = The text appears to be a collection of coding snippets, including JavaScript, CSS, and HTML, that make up the El País website. The code includes settings and configurations for content, advertising, and user subscription links, as well as styles and animations for visual elements. Meanwhile, the text also includes news articles about the US Supreme Court's decision to allow the deportation of immigrants accused of being involved with a criminal organization in Venezuela. ``` </pre>
