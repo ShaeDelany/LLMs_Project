@@ -17,11 +17,11 @@
 ## How to Use it
 
 Make sure to install anything necessary from the list of imports used in the `docsum.py` file (note: *textract* was not working for my .pdf files, so i researced *PyMuPDF*, which is labeled as *fitz*, to use instead). It's also required to get your own personal **Groq API key** and set it up in a file named `.env`. You can input the following code into the *.env* file:
-`GROQ_API_KEY=your_API_key`
+<pre>GROQ_API_KEY=your_API_key</pre>
 Now, run from the command line like this and it will generate a summary of whatever it's analyzing:
-`python3 docsum.py filename`
+<pre>python3 docsum.py filename</pre>
 or,
-`python3 docsum.py url`
+<pre>python3 docsum.py url</pre>
 
 ### Here are some examples of the output when I ran the following commands
 
