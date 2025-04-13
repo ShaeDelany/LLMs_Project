@@ -7,16 +7,16 @@
 
 | Input Type            | Examples                                  |
 |-----------------------|-------------------------------------------|
-| Plain Text            |  essay.txt, README, declaration           | 
-| HTML Files            |  page.html                                | 
+| Plain Text            |  constituion-mx.txt, declaration          | 
+| HTML Files            |  news-mx.html                             | 
 | PDF Files             |  research_paper.pdf                       | 
 | Images (local)        |  photo.jpg                                |
-| Images (URL)          |  https://example.com/image.jpg            |
-| Web Pages             |  https://nytimes.com/article              |
+| Images (URL)          |  https://www.cmc.edu/sites/default/files/about/images/20170213-cube.jpg        |
+| Web Pages             |  https://elpais.com/us/                   |
 
 ## How to Use it
 
-Make sure to install anything necessary from the list of imports used in the `docsum.py` file (note: textract was not working for my .pdf files, so i researced *PyMuPDF*, which is labeled as *fitz*, to use instead). It's also required to get your own personal **Groq API key** and set it up in a file named `.env`. You can input the following code into the *.env* file:
+Make sure to install anything necessary from the list of imports used in the `docsum.py` file (note: *textract* was not working for my .pdf files, so i researced *PyMuPDF*, which is labeled as *fitz*, to use instead). It's also required to get your own personal **Groq API key** and set it up in a file named `.env`. You can input the following code into the *.env* file:
 `GROQ_API_KEY=your_API_key`
 Now, run from the command line like this and it will generate a summary of whatever it's analyzing:
 `python3 docsum.py filename`
